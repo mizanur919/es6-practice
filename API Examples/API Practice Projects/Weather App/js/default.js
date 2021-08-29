@@ -5,7 +5,7 @@ const loadData = () =>{
     // Clear Input Box
     inputData.value = '';
     //debugger;
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputTextData}&appid=7f796a217d7786ab7a90a3f5194820d4`;
+    
     fetch(url)
     .then(response => response.json())
     .then(json => displayAllData(json))
