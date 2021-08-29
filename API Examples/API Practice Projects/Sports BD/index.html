@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container mt-5 w-25 mx-auto">
+        <div class="input-group mb-3">
+            <input id="search-box" type="text" class="form-control" placeholder="Search player" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+            <button onclick="searchPlayer()" class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+        </div>
+    </section>
+
+    <section class="container">
+
+        <div class="myLoader">
+            <div id="loader" class="loader"></div>
+        </div>
+
+        <div id="search-results" class="row row-cols-1 row-cols-md-5 g-4">
+            
+        </div>
+    </section>
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/default.js"></script>
+</body>
+
+</html>
